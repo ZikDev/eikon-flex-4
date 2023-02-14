@@ -20,6 +20,7 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
+
 /*4. exercice-align-content-2 */
 .exercice-align-content-2 .container {
   display: flex;
@@ -27,7 +28,15 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+
 /*5. exercice-align-content-3 */
+.exercice-align-content-3 .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-content: space-between;
+}
 
 /*6. exercice-flex-grow-1 */
 
