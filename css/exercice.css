@@ -61,5 +61,16 @@
 }
 
 /*8. exercice-flex-grow-3 */
+.exercice-flex-grow-3 .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.exercice-flex-grow-3 .element-red,
+.exercice-flex-grow-3 .element-blue,
+.exercice-flex-grow-3 .element-green {
+  flex-grow: 1;
+}
 
 /*9. exercice-all-in */
